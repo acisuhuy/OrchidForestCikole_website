@@ -1,0 +1,66 @@
+/* banner */
+.banner {
+    height: 60vh;
+    background-image: url('https://images.pexels.com/photos/4842163/pexels-photo-4842163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+  }
+  
+  .banner h2{
+    color: aliceblue;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #ffff;
+  }
+  /* about */
+  .text3 {
+    font-size: .2em;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* banner 1 */
+    .banner-1 {
+        height: 60vh;
+        background-image: url('https://d99i6ad9lbm5v.cloudfront.net/uploads/image/file/4188/orchid-forest.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .banner-1::after{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      
+      }
+      
+      .banner-1 h2{
+        color: aliceblue;
+        z-index: 1;
+        padding: 20px 25px;
+        border: 3px solid #ffff;
+      }
+      
+     
